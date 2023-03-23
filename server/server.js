@@ -10,8 +10,8 @@ console.log(process.env.OPENAI_API_KEY)
 
 const configuration = new Configuration({
    organization: "org-KnRYARk8i8i5dxfa9Qtyl5UJ",
-   //apikey: process.env.OPENAI_API_KEY,
-   apiKey: "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",
+   apiKey: process.env.OPENAI_API_KEY,
+   //apiKey: "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",
 });
 
 const openai = new OpenAIApi(configuration);
